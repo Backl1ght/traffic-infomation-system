@@ -1,0 +1,14 @@
+﻿E:\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(TrafficInfoSystem.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  CEditView_Ldown.cpp
+  CListView_Rdown.cpp
+  CTabView_Rup.cpp
+  CView_Add.cpp
+  CView_Del.cpp
+  CView_Lup.cpp
+  CView_Query.cpp
+  MainFrm.cpp
+  TrafficInfoSystem.cpp
+  TrafficInfoSystemDoc.cpp
+  TrafficInfoSystemView.cpp
+  正在生成代码...
+  TrafficInfoSystem.vcxproj -> C:\Users\zzk\Desktop\TrafficInfoSystem\Debug\TrafficInfoSystem.exe

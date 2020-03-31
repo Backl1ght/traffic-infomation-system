@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MyFile">
+      <UniqueIdentifier>{bc1618fa-469d-4abc-848c-8513cc5ecc66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFile\MyHeader">
+      <UniqueIdentifier>{cab3d837-4a3f-4059-b8f9-789935cf466d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFile\TabView">
+      <UniqueIdentifier>{7358e414-2775-4d71-95b5-c05eb0cea4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFile\EditView">
+      <UniqueIdentifier>{1c1969eb-6b9b-47e3-a2c7-2f65af2dca40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFile\ListView">
+      <UniqueIdentifier>{b682ccb3-bed1-4c2b-a16c-86894354229b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFile\DrawVIew">
+      <UniqueIdentifier>{47bc3f84-3515-4b06-bbc7-84cf0f1706e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyFile\TabView\Page">
+      <UniqueIdentifier>{282b7d6b-72d7-40e9-9dee-91df9c294d39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrafficInfoSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficInfoSystemDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficInfoSystemView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>MyFile\MyHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="CEditView_Ldown.h">
+      <Filter>MyFile\EditView</Filter>
+    </ClInclude>
+    <ClInclude Include="CTabView_Rup.h">
+      <Filter>MyFile\TabView</Filter>
+    </ClInclude>
+    <ClInclude Include="CView_Lup.h">
+      <Filter>MyFile\DrawVIew</Filter>
+    </ClInclude>
+    <ClInclude Include="CListView_Rdown.h">
+      <Filter>MyFile\ListView</Filter>
+    </ClInclude>
+    <ClInclude Include="CView_Add.h">
+      <Filter>MyFile\TabView\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="CView_Del.h">
+      <Filter>MyFile\TabView\Page</Filter>
+    </ClInclude>
+    <ClInclude Include="CView_Query.h">
+      <Filter>MyFile\TabView\Page</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TrafficInfoSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficInfoSystemDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficInfoSystemView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CEditView_Ldown.cpp">
+      <Filter>MyFile\EditView</Filter>
+    </ClCompile>
+    <ClCompile Include="CTabView_Rup.cpp">
+      <Filter>MyFile\TabView</Filter>
+    </ClCompile>
+    <ClCompile Include="CListView_Rdown.cpp">
+      <Filter>MyFile\ListView</Filter>
+    </ClCompile>
+    <ClCompile Include="CView_Lup.cpp">
+      <Filter>MyFile\DrawVIew</Filter>
+    </ClCompile>
+    <ClCompile Include="CView_Add.cpp">
+      <Filter>MyFile\TabView\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="CView_Del.cpp">
+      <Filter>MyFile\TabView\Page</Filter>
+    </ClCompile>
+    <ClCompile Include="CView_Query.cpp">
+      <Filter>MyFile\TabView\Page</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TrafficInfoSystem.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TrafficInfoSystem.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\TrafficInfoSystemDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TrafficInfoSystem.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
