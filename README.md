@@ -21,5 +21,5 @@
 
 readme.pdf文件是我写课程设计报告时的草稿，里面包含了具体的算法描述，运行效果等，具体可以参见readme.pdf文件。这里就简单的放张封面。Image文件夹下是一些运行的截图。
 
-![2](https://github.com/Backl1ght/traffic-infomation-system/blob/master/Image/2.jpg )
+![screenshot](https://github.com/Backl1ght/traffic-infomation-system/blob/master/Image/2.jpg)
 
